@@ -30,3 +30,33 @@
 *.exe
 *.out
 *.app
+
+# Build directory
+build/
+
+# Tools
+.vscode/
+.venv/
+.claude/
+.*
+
+# Temporary scripts
+*.ps1
+test_*.bat
+check_*.bat
+fix_*.bat
+build_direct.bat
+build_msvc.bat
+build_msvc_now.bat
+build_simple.bat
+build_vs2022_x64.bat
+build_with_*.bat
+final_build.bat
+run_*.bat
+vs_build_simple.bat
+launch_*.ps1
+batch_*.ps1
+# Keep build_all_vs.bat and build_all.bat
+
+# Temporary files
+nul
